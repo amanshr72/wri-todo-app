@@ -2,15 +2,6 @@
 
 This guide will help you set up a Laravel project on your local machine. Laravel is a powerful PHP framework known for its simplicity and elegance.
 
-## Prerequisites
-
-Before you begin, make sure you have the following installed on your system:
-
-- PHP (recommended version for Laravel 8.x is PHP 7.4 or higher)
-- Composer (Dependency Manager for PHP)
-- Node.js and npm (for frontend assets compilation and management)
-- MySQL, PostgreSQL, SQLite, or SQL Server (choose one)
-
 ## Getting Started
 
 Follow these steps to set up your Laravel project:
@@ -22,3 +13,20 @@ Clone the project repository from GitHub:
 ```bash
 git clone <repository_url>
 cd <project_folder>
+
+# MCARE
+
+This repository contains a Laravel project for a Warehouse Management System (MCARE).
+
+## Getting Started
+
+To get started with this project, follow these steps:
+
+1. git clone [repository_url](https://github.com/amanshr72/wri-todo-app.git)
+2. cd project-directory
+3. composer install
+4. cp .env.example .env
+5. php artisan key:generate
+6. php artisan migrate
+7. php artisan serve
+
