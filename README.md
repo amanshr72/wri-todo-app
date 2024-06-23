@@ -6,20 +6,6 @@ This guide will help you set up a Laravel project on your local machine. Laravel
 
 Follow these steps to set up your Laravel project:
 
-### 1. Clone the Repository
-
-Clone the project repository from GitHub:
-
-```bash
-git clone <repository_url>
-cd <project_folder>
-
-# MCARE
-
-This repository contains a Laravel project for a Warehouse Management System (MCARE).
-
-## Getting Started
-
 To get started with this project, follow these steps:
 
 1. git clone [repository_url](https://github.com/amanshr72/wri-todo-app.git)
