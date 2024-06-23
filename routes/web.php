@@ -15,10 +15,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect()->route('tasks.index');
 });
 
 Route::resource('tasks', TaskController::class);
-Route::get('mark-progress', [TaskController::class, 'markProgress'])->name('markProgress');
-Route::get('all-task', [TaskController::class, 'showAllTask'])->name('showAllTask');
 
+Route::get('mark-progress', [TaskController::class, 'markProgress'])->name('markProgress');
+
+Route::get('all-task', [TaskController::class, 'showAllTask'])->name('showAllTask');
